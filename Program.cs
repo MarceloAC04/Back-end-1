@@ -84,7 +84,7 @@
 
 // Algoritmo
 // entrada: nome, idade , peso, altura
-// processamento: peso/altura**2
+// processamento: peso/altura*altura
 
 
 // Entrada
