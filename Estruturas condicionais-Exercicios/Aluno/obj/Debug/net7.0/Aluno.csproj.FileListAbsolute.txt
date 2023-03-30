@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\bin\Debug\net7.0\Aluno.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\bin\Debug\net7.0\Aluno.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\bin\Debug\net7.0\Aluno.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\bin\Debug\net7.0\Aluno.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\bin\Debug\net7.0\Aluno.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\refint\Aluno.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\Aluno.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Aluno\obj\Debug\net7.0\ref\Aluno.dll

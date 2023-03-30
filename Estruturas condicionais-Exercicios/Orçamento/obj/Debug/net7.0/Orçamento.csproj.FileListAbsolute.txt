@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\bin\Debug\net7.0\Orçamento.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\bin\Debug\net7.0\Orçamento.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\bin\Debug\net7.0\Orçamento.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\bin\Debug\net7.0\Orçamento.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\bin\Debug\net7.0\Orçamento.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\refint\Orçamento.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\Orçamento.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionais\Orçamento\obj\Debug\net7.0\ref\Orçamento.dll

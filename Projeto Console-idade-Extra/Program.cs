@@ -9,5 +9,5 @@ int idade = (dataAtual - ano);
 
 int semanas = (idade * 52);
 
-Console.WriteLine($"Sua idade corresponde á {idade} e aproximadamente {semanas} semanas");
+Console.WriteLine($"Sua idade corresponde á {idade} ano(s) e aproximadamente {semanas} semanas");
 
