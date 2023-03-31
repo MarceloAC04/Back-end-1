@@ -1,0 +1,15 @@
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\bin\Debug\net7.0\Suspeito.exe
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\bin\Debug\net7.0\Suspeito.deps.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\bin\Debug\net7.0\Suspeito.runtimeconfig.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\bin\Debug\net7.0\Suspeito.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\bin\Debug\net7.0\Suspeito.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.AssemblyInfo.cs
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\refint\Suspeito.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\Suspeito.genruntimeconfig.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Suspeito\obj\Debug\net7.0\ref\Suspeito.dll

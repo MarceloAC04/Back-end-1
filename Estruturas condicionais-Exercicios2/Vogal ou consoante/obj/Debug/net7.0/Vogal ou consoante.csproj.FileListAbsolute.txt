@@ -1,0 +1,15 @@
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\bin\Debug\net7.0\Vogal ou consoante.exe
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\bin\Debug\net7.0\Vogal ou consoante.deps.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\bin\Debug\net7.0\Vogal ou consoante.runtimeconfig.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\bin\Debug\net7.0\Vogal ou consoante.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\bin\Debug\net7.0\Vogal ou consoante.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.AssemblyInfo.cs
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\refint\Vogal ou consoante.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\Vogal ou consoante.genruntimeconfig.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\Vogal ou consoante\obj\Debug\net7.0\ref\Vogal ou consoante.dll

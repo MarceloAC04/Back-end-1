@@ -1,0 +1,15 @@
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\bin\Debug\net7.0\DataValida.exe
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\bin\Debug\net7.0\DataValida.deps.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\bin\Debug\net7.0\DataValida.runtimeconfig.json
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\bin\Debug\net7.0\DataValida.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\bin\Debug\net7.0\DataValida.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.AssemblyInfo.cs
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\refint\DataValida.dll
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.pdb
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\DataValida.genruntimeconfig.cache
+C:\Users\55119\Desktop\Back-end-1\Estruturas condicionais-Exercicios2\DataValida\obj\Debug\net7.0\ref\DataValida.dll
