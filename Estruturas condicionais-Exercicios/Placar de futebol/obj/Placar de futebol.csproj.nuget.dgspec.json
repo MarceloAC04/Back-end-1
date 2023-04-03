@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Placar de futebol\\Placar de futebol.csproj": {}
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Placar de futebol\\Placar de futebol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Placar de futebol\\Placar de futebol.csproj": {
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Placar de futebol\\Placar de futebol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Placar de futebol\\Placar de futebol.csproj",
+        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Placar de futebol\\Placar de futebol.csproj",
         "projectName": "Placar de futebol",
-        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Placar de futebol\\Placar de futebol.csproj",
+        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Placar de futebol\\Placar de futebol.csproj",
         "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Placar de futebol\\obj\\",
+        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Placar de futebol\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",

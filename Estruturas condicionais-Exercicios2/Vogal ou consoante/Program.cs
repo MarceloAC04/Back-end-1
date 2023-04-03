@@ -1,15 +1,7 @@
 ﻿Console.WriteLine($"Digite uma letra");
-char letra = char.Parse(Console.ReadLine());
+char letra = char.Parse(Console.ReadLine().ToLower());
 
-if (letra == 'a' || letra =='A' || letra == 'E' || letra == 'e')
-{
-    Console.WriteLine($"{letra} é uma vogal");
-}
-else if (letra == 'i' || letra =='I' || letra == 'o' || letra == 'O')
-{
-    Console.WriteLine($"{letra} é uma vogal");
-}
-else if (letra == 'u' || letra =='U')
+if (letra == 'a' || letra =='e' || letra == 'i' || letra == 'o'  || letra == 'u' )
 {
     Console.WriteLine($"{letra} é uma vogal");
 }

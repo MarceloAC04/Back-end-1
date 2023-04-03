@@ -9,10 +9,6 @@ if (raio < 1)
 }
 else 
 {
-  Console.WriteLine(@$"O círculo tem
-  o diametro de {2 * raio}
-  comprimento de {2 * pi * raio}
-  e a área de {(raio * raio) * pi}
-  ");
+  Console.WriteLine($"O círculo tem o diametro de {2 * raio}, comprimento de {2 * pi * raio} e a área de {(raio * raio) * pi}");
 };
 

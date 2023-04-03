@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Orçamento\\Orçamento.csproj",
+      "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Orçamento\\Orçamento.csproj",
       "projectName": "Orçamento",
-      "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Orçamento\\Orçamento.csproj",
+      "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Orçamento\\Orçamento.csproj",
       "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Orçamento\\obj\\",
+      "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Orçamento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,13 +13,19 @@ ladoC = float.Parse(Console.ReadLine());
 
 if ( ladoA == ladoB && ladoB == ladoC && ladoA == ladoC)
 {
-    Console.WriteLine($" Triângulo Equilátero");   
+    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+    Console.WriteLine($" Triângulo Equilátero");
+    Console.ResetColor();   
 }
 else if ( ladoA == ladoB || ladoB == ladoC || ladoA == ladoC)
 {
+    Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine($"Triângulo Isósceles");
+    Console.ResetColor(); 
 }
 else 
 {
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
     Console.WriteLine($"Triângulo Escaleno");
+     Console.ResetColor(); 
 }

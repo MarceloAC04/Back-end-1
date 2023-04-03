@@ -6,10 +6,14 @@ senhaUsuario = int.Parse(Console.ReadLine());
 
 if (senhaValida == senhaUsuario)
 {
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
     Console.WriteLine($"ACESSO PERMITIDO! ;)");
+    Console.ResetColor();
 }
 else 
 {
+    Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine($"ACESSO NEGADO! ;(");
-}
+    Console.ResetColor();
+};
 

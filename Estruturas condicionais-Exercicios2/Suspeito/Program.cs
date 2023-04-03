@@ -1,75 +1,62 @@
 ﻿int nivelSuspeito = 0;
 
 Console.WriteLine($"Telefonou para a vítima?");
-string resposta = Console.ReadLine();
+string resposta = Console.ReadLine().ToLower();
 if (resposta == "sim")
 {
     nivelSuspeito++;
 }
-else if (resposta == "não")
-{
-    nivelSuspeito = nivelSuspeito;
-};
 
 Console.WriteLine($"Esteve no local do crime?");
-string resposta2 = Console.ReadLine();
+string resposta2 = Console.ReadLine().ToLower();
 if (resposta2 == "sim")
 {
     nivelSuspeito++;
 }
-else if (resposta2 == "não")
-{
-    nivelSuspeito = nivelSuspeito;
-
-};
 
 Console.WriteLine($"Mora perto da vítima?");
-string resposta3 = Console.ReadLine();
+string resposta3 = Console.ReadLine().ToLower();
 if (resposta3 == "sim")
 {
     nivelSuspeito++;
 }
-else if (resposta3 == "não")
-{
-    nivelSuspeito = nivelSuspeito;
-};
 
 Console.WriteLine($"Devia para a vítima?");
-string resposta4 = Console.ReadLine();
+string resposta4 = Console.ReadLine().ToLower();
 if (resposta4 == "sim")
 {
     nivelSuspeito++;
 }
-else if (resposta4 == "não")
-{
-    nivelSuspeito = nivelSuspeito;
-};
 
 Console.WriteLine($"Já trabalhou com a vítima?");
-string resposta5 = Console.ReadLine();
+string resposta5 = Console.ReadLine().ToLower();
 if (resposta5 == "sim")
 {
     nivelSuspeito++;
 }
-else if (resposta5 == "não")
-{
-    nivelSuspeito = nivelSuspeito;
-};
+
 
 if (nivelSuspeito == 2)
 {
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
     Console.WriteLine($"Indivíduo é suspeito");
-    
+    Console.ResetColor();
 }
 else if (nivelSuspeito >=3 && nivelSuspeito <=4)
 {
+    Console.ForegroundColor = ConsoleColor.DarkMagenta;
     Console.WriteLine($"Indivíduo é cúmplice!");
+    Console.ResetColor();
 }
 else if (nivelSuspeito == 5)
 {
+    Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine($"Indivíduo é culpado!");
+    Console.ResetColor();
 }
 else
 {
+    Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine($"Indivíduo é inocente!");
+    Console.ResetColor();
 };

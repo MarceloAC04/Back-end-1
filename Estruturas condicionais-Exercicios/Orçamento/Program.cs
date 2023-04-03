@@ -9,12 +9,15 @@ gastos = int.Parse(Console.ReadLine());
 
 if (salario < gastos)
 {
-    Console.WriteLine($"Orçamento estourado");
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    Console.WriteLine($"Orçamento estourado!");
+    Console.ResetColor();
 }
 else
 {
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
     Console.WriteLine($"Gastos dentro do orçamento ");
-    
+    Console.ResetColor();
 };
 
 

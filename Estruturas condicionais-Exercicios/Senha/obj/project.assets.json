@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Senha\\Senha.csproj",
+      "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Senha\\Senha.csproj",
       "projectName": "Senha",
-      "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Senha\\Senha.csproj",
+      "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Senha\\Senha.csproj",
       "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais\\Senha\\obj\\",
+      "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas condicionais-Exercicios\\Senha\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",
