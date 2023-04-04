@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\bin\Debug\net7.0\Projeto-bebidas.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\bin\Debug\net7.0\Projeto-bebidas.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\bin\Debug\net7.0\Projeto-bebidas.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\bin\Debug\net7.0\Projeto-bebidas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\bin\Debug\net7.0\Projeto-bebidas.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\refint\Projeto-bebidas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\Projeto-bebidas.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas condicionias-switch-case\Projeto-bebidas\obj\Debug\net7.0\ref\Projeto-bebidas.dll
