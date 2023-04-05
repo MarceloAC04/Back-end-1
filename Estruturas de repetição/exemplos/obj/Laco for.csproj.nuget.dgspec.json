@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Idade certa\\Laco for.csproj": {}
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\exemplos\\Laco for.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Idade certa\\Laco for.csproj": {
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\exemplos\\Laco for.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Idade certa\\Laco for.csproj",
+        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\exemplos\\Laco for.csproj",
         "projectName": "Laco for",
-        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Idade certa\\Laco for.csproj",
+        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\exemplos\\Laco for.csproj",
         "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Idade certa\\obj\\",
+        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\exemplos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",
