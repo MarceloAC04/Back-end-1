@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\bin\Debug\net7.0\Pesquisa - exercicio extra.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\bin\Debug\net7.0\Pesquisa - exercicio extra.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\bin\Debug\net7.0\Pesquisa - exercicio extra.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\bin\Debug\net7.0\Pesquisa - exercicio extra.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\bin\Debug\net7.0\Pesquisa - exercicio extra.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\refint\Pesquisa - exercicio extra.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\Pesquisa - exercicio extra.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\Pesquisa - exercicio extra\obj\Debug\net7.0\ref\Pesquisa - exercicio extra.dll

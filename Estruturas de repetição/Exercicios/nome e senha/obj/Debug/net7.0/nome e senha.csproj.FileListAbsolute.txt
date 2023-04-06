@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\bin\Debug\net7.0\nome e senha.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\bin\Debug\net7.0\nome e senha.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\bin\Debug\net7.0\nome e senha.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\bin\Debug\net7.0\nome e senha.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\bin\Debug\net7.0\nome e senha.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\refint\nome e senha.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\nome e senha.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\nome e senha\obj\Debug\net7.0\ref\nome e senha.dll

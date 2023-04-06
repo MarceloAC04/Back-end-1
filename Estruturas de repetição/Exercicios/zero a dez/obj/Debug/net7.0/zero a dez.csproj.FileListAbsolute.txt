@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\bin\Debug\net7.0\zero a dez.exe
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\bin\Debug\net7.0\zero a dez.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\bin\Debug\net7.0\zero a dez.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\bin\Debug\net7.0\zero a dez.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\bin\Debug\net7.0\zero a dez.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\refint\zero a dez.dll
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\zero a dez.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Estruturas de repetição\Exercicios\zero a dez\obj\Debug\net7.0\ref\zero a dez.dll
