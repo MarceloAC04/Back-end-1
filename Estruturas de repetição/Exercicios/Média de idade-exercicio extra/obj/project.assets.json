@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj",
-      "projectName": "Tabuada-exercico extra",
-      "projectPath": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj",
+      "projectUniqueName": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Média de idade\\Média de idade.csproj",
+      "projectName": "Média de idade",
+      "projectPath": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Média de idade\\Média de idade.csproj",
       "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\obj\\",
+      "outputPath": "C:\\Users\\55119\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Média de idade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

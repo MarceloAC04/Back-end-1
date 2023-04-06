@@ -4,6 +4,8 @@ int x = 1;
 while (y <= 10)
 {
     int i = 1;
+    Console.WriteLine($"Tabuada do {x}");
+    
     do
     {
         Console.WriteLine($"{x * i}");
