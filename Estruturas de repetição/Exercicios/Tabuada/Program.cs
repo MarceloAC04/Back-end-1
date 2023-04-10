@@ -7,7 +7,7 @@ Console.WriteLine($"A tabuada desse número é");
 
 do 
 {
-   Console.WriteLine($"{x * i}");
+   Console.WriteLine($"{x} x {i} = {x * i}");
    i++;
 }
 while (i <= 10);

@@ -6,19 +6,20 @@ int mulherSim = 0;
 int homemNao = 0;
 int mulherNao = 0;
 
-string sexo;
-string resposta;
+char sexo;
+char resposta;
+
 
 while (i < 10)
 {
-    Console.WriteLine($"Está sastifeito com o produto da empresa ? (sim ou não)");
-    resposta = Console.ReadLine().ToLower();
+    Console.WriteLine($"Está sastifeito com o produto da empresa ? (s para sim e n para não)");
+    resposta = char.Parse(Console.ReadLine().ToLower());
     switch (resposta)
     {
-        case "sim":
-            Console.WriteLine($"Qual o seu sexo? (masculino ou feminino)");
-            sexo = Console.ReadLine();
-            if (sexo == "masculino")
+        case 's':
+            Console.WriteLine($"Qual o seu sexo? (m para masculino ou f para feminino)");
+            sexo = char.Parse(Console.ReadLine());
+            if (sexo == 'm')
             {
                 homemSim++;
             }
@@ -27,10 +28,10 @@ while (i < 10)
                 mulherSim++;
             }
             break;
-        case "não":
-            Console.WriteLine($"Qual o seu sexo? (masculino ou feminino)");
-            sexo = Console.ReadLine();
-            if (sexo == "masculino")
+        case 'n':
+            Console.WriteLine($"Qual o seu sexo? (m para masculino ou f para feminino)");
+            sexo = char.Parse(Console.ReadLine());
+            if (sexo == 'm')
             {
                 homemNao++;
             }
@@ -42,8 +43,8 @@ while (i < 10)
     }
     i++;
 }
-float total = (homemSim + mulherSim) + (mulherNao + homemNao);
-float porcentagem = (homemNao / total) * 100;
+double totalH = (homemSim + homemNao);
+double porcentagem = Math.Round(((homemNao / totalH ) * 100),2);
 
 Console.WriteLine($"O total de pessoas que responderam 'sim' foram {homemSim + mulherSim}");
 

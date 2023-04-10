@@ -8,7 +8,7 @@ while (y <= 10)
     
     do
     {
-        Console.WriteLine($"{x * i}");
+        Console.WriteLine($"{x} x {i} = {x * i}");
         i++;
     }
     while (i <= 10);

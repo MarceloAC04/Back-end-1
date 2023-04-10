@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\tabuada\\tabuada.csproj": {}
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada\\tabuada.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\tabuada\\tabuada.csproj": {
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada\\tabuada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\tabuada\\tabuada.csproj",
+        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada\\tabuada.csproj",
         "projectName": "tabuada",
-        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\tabuada\\tabuada.csproj",
+        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada\\tabuada.csproj",
         "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\tabuada\\obj\\",
+        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",
