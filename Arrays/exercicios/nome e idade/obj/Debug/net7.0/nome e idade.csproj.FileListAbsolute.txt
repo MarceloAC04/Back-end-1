@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\bin\Debug\net7.0\nome e idade.exe
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\bin\Debug\net7.0\nome e idade.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\bin\Debug\net7.0\nome e idade.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\bin\Debug\net7.0\nome e idade.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\bin\Debug\net7.0\nome e idade.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\refint\nome e idade.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\nome e idade.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\nome e idade\obj\Debug\net7.0\ref\nome e idade.dll

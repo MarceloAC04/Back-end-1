@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\bin\Debug\net7.0\dobro.exe
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\bin\Debug\net7.0\dobro.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\bin\Debug\net7.0\dobro.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\bin\Debug\net7.0\dobro.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\bin\Debug\net7.0\dobro.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\refint\dobro.dll
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\dobro.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Arrays\exercicios\dobro\obj\Debug\net7.0\ref\dobro.dll
