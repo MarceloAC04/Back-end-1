@@ -1,28 +1,23 @@
 ﻿string[] nomes = new string[5];
 int[] idades = new int[5];
-int y = 0;
-int x = 1;
 
 for (int i = 0; i < nomes.Length; i++)
 {
-    Console.WriteLine($"Digite o seu nome");
+    Console.WriteLine($"Digite o {i + 1}º nome");
     nomes[i] = Console.ReadLine();
-    Console.WriteLine($"Informe sua idade");
+    Console.WriteLine($"Informe a {i + 1}º idade");
     idades[i] = int.Parse(Console.ReadLine());
 }
 Console.WriteLine($" ");
 
-foreach (string item in nomes)
+for (int y = 0; y < nomes.Length; y++)
 {
     Console.ForegroundColor = ConsoleColor.Blue;
-    Console.WriteLine($"{x}) nome: {item}");
+    Console.WriteLine($"{y + 1}) nome: {nomes[y]}");
     Console.ResetColor();
 
     Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine($"idade: {idades[y]} anos");
+    Console.WriteLine($"   idade: {idades[y]} anos");
     Console.ResetColor();
-
     Console.WriteLine($"");
-    y++;
-    x++;
 }
