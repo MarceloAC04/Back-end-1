@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\bin\Debug\net7.0\Exercico4.exe
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\bin\Debug\net7.0\Exercico4.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\bin\Debug\net7.0\Exercico4.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\bin\Debug\net7.0\Exercico4.dll
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\bin\Debug\net7.0\Exercico4.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.dll
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\refint\Exercico4.dll
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\Exercico4.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Lista de exercicos\Exercico4\obj\Debug\net7.0\ref\Exercico4.dll
