@@ -1,33 +1,36 @@
 ﻿using System.Globalization;
 
-static void Alcool(float litros)
+float total;
+
+static float Alcool(float litros)
 {
-    switch (litros)
+    float precoA;
+    if (litros <= 20)
     {
-        case <= 20:
-            float precoA = (litros * 4.90f);
-            Console.WriteLine($"O preço a pagar é {Math.Round((precoA) - (precoA * 0.03), 2).ToString("C", new CultureInfo("pt-BR"))}");
-            break;
-        default:
-            precoA = (litros * 4.90f);
-            Console.WriteLine($"O preço a pagar é {Math.Round((precoA) - (precoA * 0.05), 2).ToString("C", new CultureInfo("pt-BR"))}");
-            break;
+        precoA = (litros * 4.90f);
+        return (precoA) - (precoA * 0.03f);
+
+    }
+    else
+    {
+        precoA = (litros * 4.90f);
+        return (precoA) - (precoA * 0.05f);
     }
 
 }
 
-static void Gasolina(float litros)
+static float Gasolina(float litros)
 {
-    switch (litros)
+    float precoG;
+    if (litros <= 20)
     {
-        case <= 20:
-            float precoG = (litros * 5.30f);
-            Console.WriteLine($"O preço a pagar é {Math.Round((precoG) - (precoG * 0.04), 2).ToString("C", new CultureInfo("pt-BR"))}");
-            break;
-        default:
-            precoG = (litros * 5.30f);
-            Console.WriteLine($"O preço a pagar é {Math.Round((precoG) - (precoG * 0.06), 2).ToString("C", new CultureInfo("pt-BR"))}");
-            break;
+        precoG = (litros * 5.30f);
+        return (precoG) - (precoG * 0.04f);
+    }
+    else
+    {
+        precoG = (litros * 5.30f);
+        return (precoG) - (precoG * 0.06f);
     }
 
 }
@@ -65,12 +68,14 @@ switch (combustivel)
 {
     case 'A':
         Console.ForegroundColor = ConsoleColor.Green;
-        Alcool(litros);
+        total = Alcool(litros);
+        Console.WriteLine($"O preço a pagar é {Math.Round(total, 2).ToString("C", new CultureInfo("pt-BR"))}");
         Console.ResetColor();
         break;
     default:
         Console.ForegroundColor = ConsoleColor.Green;
-        Gasolina(litros);
+        total = Gasolina(litros);
+        Console.WriteLine($"O preço a pagar é {Math.Round(total, 2).ToString("C", new CultureInfo("pt-BR"))}");
         Console.ResetColor();
         break;
 }
