@@ -1,12 +1,19 @@
 ﻿int anoAtual = DateTime.Now.Year;
 int nascimento;
 
-do
+Console.ForegroundColor = ConsoleColor.DarkYellow;
+Console.WriteLine($"Informe o ano de seu nascimento:");
+Console.ResetColor();
+nascimento = int.Parse(Console.ReadLine());
+
+
+while (nascimento < 0)
 {
-    Console.WriteLine($"Informe o ano de seu nascimento:");
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    Console.WriteLine($"Informe um ano valido");
+    Console.ResetColor();
     nascimento = int.Parse(Console.ReadLine());
-} 
-while (nascimento < 0);
+}
 
 int idade = (anoAtual - nascimento);
 if (idade >= 18)

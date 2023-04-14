@@ -1,4 +1,4 @@
-﻿float[] valores = new float[4];
+﻿float[] valores = new float[10];
 
 for (int i = 0; i < valores.Length; i++)
 {
@@ -9,4 +9,6 @@ for (int i = 0; i < valores.Length; i++)
 float maior = valores.Max();
 float menor = valores.Min();
 
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine($"O maior valor é {maior} e menor é {menor}");
+Console.ResetColor();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj": {}
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Lista de exercicos\\Exercicio5\\Tabuada-exercico extra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj": {
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Lista de exercicos\\Exercicio5\\Tabuada-exercico extra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj",
+        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Lista de exercicos\\Exercicio5\\Tabuada-exercico extra.csproj",
         "projectName": "Tabuada-exercico extra",
-        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\Tabuada-exercico extra.csproj",
+        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Lista de exercicos\\Exercicio5\\Tabuada-exercico extra.csproj",
         "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Estruturas de repetição\\Exercicios\\Tabuada-exercico extra\\obj\\",
+        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\Lista de exercicos\\Exercicio5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",
