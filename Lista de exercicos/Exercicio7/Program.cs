@@ -11,5 +11,4 @@ Array.Reverse(numeros);
 foreach (float item in numeros)
 {
     Console.WriteLine($"{item}");
-    
 }

@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\bin\Debug\net7.0\Projeto-Passagem aéreas.exe
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\bin\Debug\net7.0\Projeto-Passagem aéreas.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\bin\Debug\net7.0\Projeto-Passagem aéreas.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\bin\Debug\net7.0\Projeto-Passagem aéreas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\bin\Debug\net7.0\Projeto-Passagem aéreas.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\refint\Projeto-Passagem aéreas.dll
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\Projeto-Passagem aéreas.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Projeto-Passagem aéreas\obj\Debug\net7.0\ref\Projeto-Passagem aéreas.dll

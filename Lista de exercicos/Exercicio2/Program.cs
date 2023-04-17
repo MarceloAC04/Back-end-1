@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-
 float total;
 
 static float Alcool(float litros)
