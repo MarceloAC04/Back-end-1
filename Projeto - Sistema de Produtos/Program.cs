@@ -1,7 +1,7 @@
-﻿string[] nome = new string[2];
-float[] preco = new float[2];
-bool[] promocao = new bool[2];
-string[] promo = new string[2];
+﻿string[] nome = new string[10];
+float[] preco = new float[10];
+bool[] promocao = new bool[10];
+string[] promo = new string[10];
 char respostaPromo;
 bool sair = true;
 
@@ -58,22 +58,29 @@ bool[] CadastroPromocao(int i)
 
 void listarProduto(int i)
 {
-    Console.WriteLine($"Os produtos cadastrados são");
     Console.WriteLine($"{i + 1}º produto");
     Console.WriteLine($"Produto: {nome[i]}");
-    Console.WriteLine($"Preço: {preco[i]}");
-    Console.WriteLine(promocao[i] == true ? "Em promoção" : "Não está em promoção");
+    Console.WriteLine($"Preço: R$ {preco[i]}");
+    Console.WriteLine($"Em promoção: {(promocao[i] == true ? "SIM" : "NÃO")}");
     Console.WriteLine($"");
 }
 
+void MostrarMenu()
+{
+    for (int i = 0; i < nome.Length; i++)
+    {
+        Console.WriteLine($" {nome[i]}    R$ {preco[i]}      {(promocao[i] == true ? "SIM" : "NÃO")}");
 
-// BarraCarregamento("Entrando no sistema", 7, 700);
+    }
+}
+
+BarraCarregamento("Entrando no sistema", 7, 700);
 while (sair)
 {
     Console.WriteLine($@"
            Bem-Vindo!
     --------------------------
-    |        MENU            |
+    |         MENU           |
     | 1 - Cadastrar Produto  |
     | 2 - Listar Produtos    |
     | 3 - Mostrar Menu       |
@@ -91,16 +98,22 @@ while (sair)
     {
         case 0:
             sair = false;
-            // BarraCarregamento("Saindo do sistema", 7, 700);
+            BarraCarregamento("Saindo do sistema", 7, 700);
             break;
         case 1:
-            for (int i = 0; i < nome.Length; i++)
+            char resposta;
+            do
             {
-                CadastroNome(i);
-                CadastroPreco(i);
-                CadastroPromocao(i);
-                Console.WriteLine($"Gostaria de cadastrar outra passagem? S/N");
-                char resposta = char.Parse(Console.ReadLine());
+                for (int i = 0; i < nome.Length; i++)
+                {
+                    CadastroNome(i);
+                    CadastroPreco(i);
+                    CadastroPromocao(i);
+                    Console.WriteLine($"Produto cadastrado!");
+                }
+                Console.WriteLine($"Gostaria de registrar outro produto? S/N");
+
+                resposta = char.Parse(Console.ReadLine());
                 resposta = char.ToUpper(resposta);
                 while (resposta != 'N' && resposta != 'S')
                 {
@@ -108,29 +121,39 @@ while (sair)
                     resposta = char.Parse(Console.ReadLine());
                     resposta = char.ToUpper(resposta);
                 }
-                switch (resposta)
-                {
-                    case 'N':
-                        i = nome.Length;
-                        break;
-                    default:
-                        continue;
-                }
-            }
-            Console.WriteLine($"Produto cadastrado!");
-            // BarraCarregamento("Saindo",7,700);
+            } while (resposta == 'S');
+            BarraCarregamento("Saindo", 5, 500);
             break;
         case 2:
+            Console.WriteLine($"Os produtos cadastrados são");
             for (int i = 0; i < nome.Length; i++)
             {
                 listarProduto(i);
             }
-            int listaResposta = int.Parse(Console.ReadLine());
-            while (listaResposta != 3)
+            Console.WriteLine($"Digite ok para sair");
+            string listaResposta = Console.ReadLine().ToLower();
+            while (listaResposta != "ok")
             {
                 Console.WriteLine($"Digite o comando corretamente para sair");
-                listaResposta = int.Parse(Console.ReadLine());
+                listaResposta = Console.ReadLine().ToLower();
             }
+            BarraCarregamento("Saindo", 5, 500);
+            break;
+        case 3:
+            Console.WriteLine($"-------------------------------------");
+            Console.WriteLine($"      Mercadinho Tabajara            ");
+            Console.WriteLine($" Nome       Preço      Promoção      ");
+            MostrarMenu();
+            Console.WriteLine($"-------------------------------------");
+
+            Console.WriteLine($"Digite ok para sair");
+            string menuResposta = Console.ReadLine().ToLower();
+            while (menuResposta != "ok")
+            {
+                Console.WriteLine($"Digite o comando corretamente para sair");
+                listaResposta = Console.ReadLine().ToLower();
+            }
+            BarraCarregamento("Saindo", 5, 500);
             break;
     }
 }

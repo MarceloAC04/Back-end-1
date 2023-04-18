@@ -1,8 +1,8 @@
 ﻿const string senhaValida = "123456";
-string[] passageiro = new string[2];
-string[] origem = new string[2];
-string[] destino = new string[2];
-string[] data = new string[2];
+string[] passageiro = new string[10];
+string[] origem = new string[10];
+string[] destino = new string[10];
+string[] data = new string[10];
 string senha;
 bool sair = true;
 
@@ -36,9 +36,9 @@ static bool login(string senha)
 
 string[] passagem()
 {
+        char resposta;
     do
     {
-        char resposta;
         for (int i = 0; i < passageiro.Length; i++)
         {
             Console.WriteLine($"Digite o nome do passageiro");
