@@ -1,6 +1,7 @@
 ﻿const string senhaValida = "123456";
 string[] passageiro = new string[2];
-string[] origemDestino = new string[2];
+string[] origem = new string[2];
+string[] destino = new string[2];
 string[] data = new string[2];
 string senha;
 bool sair = true;
@@ -35,23 +36,30 @@ static bool login(string senha)
 
 string[] passagem()
 {
-    for (int i = 0; i < passageiro.Length; i++)
+    do
     {
-        Console.WriteLine($"Digite o nome do passageiro");
-        passageiro[i] = Console.ReadLine();
+        char resposta;
+        for (int i = 0; i < passageiro.Length; i++)
+        {
+            Console.WriteLine($"Digite o nome do passageiro");
+            passageiro[i] = Console.ReadLine();
 
-        Console.WriteLine($"informe a origem e destino do voo ex(São Paulo-Paris)");
-        origemDestino[i] = Console.ReadLine();
+            Console.WriteLine($"informe a origem do voo");
+            origem[i] = Console.ReadLine();
 
-        Console.WriteLine($"Digite a data do voo");
-        data[i] = Console.ReadLine();
+            Console.WriteLine($"informe o destino do voo");
+            destino[i] = Console.ReadLine();
 
-        Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine($"Passagem cadastrada");
-        Console.ResetColor();
+            Console.WriteLine($"Digite a data do voo");
+            data[i] = Console.ReadLine();
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine($"Passagem cadastrada");
+            Console.ResetColor();
+        }
 
         Console.WriteLine($"Gostaria de cadastrar outra passagem? S/N");
-        char resposta = char.Parse(Console.ReadLine());
+        resposta = char.Parse(Console.ReadLine());
         resposta = char.ToUpper(resposta);
         while (resposta != 'N' && resposta != 'S')
         {
@@ -59,17 +67,11 @@ string[] passagem()
             resposta = char.Parse(Console.ReadLine());
             resposta = char.ToUpper(resposta);
         }
-        switch (resposta)
-        {
-            case 'N':
-            i = passageiro.Length;
-                break;
-            default:
-                continue;
-        }
-    }
+    } while (resposta == 'S');
+
     return passageiro;
-    return origemDestino;
+    return origem;
+    return destino;
     return data;
 }
 
@@ -80,9 +82,10 @@ void listar()
     {
         Console.WriteLine($"{i + 1}º passagem");
         Console.WriteLine($"Passageiro: {passageiro[i]}");
-        Console.WriteLine($"Origem e Destino: {origemDestino[i]}");
+        Console.WriteLine($"Origem e Destino: {origem[i]} e {destino[i]}");
         Console.WriteLine($"Data: {data[i]}");
         Console.WriteLine($"");
+
     }
     Console.WriteLine($"Digite ok para sair");
     string listaResposta = Console.ReadLine().ToLower();
@@ -133,11 +136,11 @@ while (sair)
     {
         case 0:
             sair = false;
-            BarraCarregamento("Saindo do sistema",7,700);
+            BarraCarregamento("Saindo do sistema", 7, 700);
             break;
         case 1:
             passagem();
-            BarraCarregamento("Saindo",7,700);
+            BarraCarregamento("Saindo", 7, 700);
             break;
         case 2:
             listar();
