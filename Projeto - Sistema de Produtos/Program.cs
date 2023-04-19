@@ -109,7 +109,9 @@ while (sair)
                     CadastroNome(i);
                     CadastroPreco(i);
                     CadastroPromocao(i);
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Console.WriteLine($"Produto cadastrado!");
+                    Console.ResetColor();
                 }
                 Console.WriteLine($"Gostaria de registrar outro produto? S/N");
 
@@ -128,7 +130,9 @@ while (sair)
             Console.WriteLine($"Os produtos cadastrados são");
             for (int i = 0; i < nome.Length; i++)
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 listarProduto(i);
+                Console.ResetColor();
             }
             Console.WriteLine($"Digite ok para sair");
             string listaResposta = Console.ReadLine().ToLower();
@@ -140,12 +144,13 @@ while (sair)
             BarraCarregamento("Saindo", 5, 500);
             break;
         case 3:
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine($"-------------------------------------");
             Console.WriteLine($"      Mercadinho Tabajara            ");
             Console.WriteLine($" Nome       Preço      Promoção      ");
             MostrarMenu();
             Console.WriteLine($"-------------------------------------");
-
+            Console.ResetColor();
             Console.WriteLine($"Digite ok para sair");
             string menuResposta = Console.ReadLine().ToLower();
             while (menuResposta != "ok")
