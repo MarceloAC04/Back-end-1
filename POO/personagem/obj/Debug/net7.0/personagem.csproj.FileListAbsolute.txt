@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\bin\Debug\net7.0\personagem.exe
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\bin\Debug\net7.0\personagem.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\bin\Debug\net7.0\personagem.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\bin\Debug\net7.0\personagem.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\bin\Debug\net7.0\personagem.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\refint\personagem.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\personagem.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\personagem\obj\Debug\net7.0\ref\personagem.dll
