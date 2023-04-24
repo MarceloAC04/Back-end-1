@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Exercicio2
-build_property.ProjectDir = c:\Users\55119\Desktop\Back-end-1\Lista de exercicos\Exercicio2\
+build_property.RootNamespace = cadastro_de_aluno
+build_property.ProjectDir = C:\Users\55119\Desktop\Back-end-1\POO\cadastro de aluno\
