@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\cadastro de aluno\\cadastro de aluno.csproj": {}
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\CelularPOO\\CelularPOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\cadastro de aluno\\cadastro de aluno.csproj": {
+    "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\CelularPOO\\CelularPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\cadastro de aluno\\cadastro de aluno.csproj",
-        "projectName": "cadastro de aluno",
-        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\cadastro de aluno\\cadastro de aluno.csproj",
+        "projectUniqueName": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\CelularPOO\\CelularPOO.csproj",
+        "projectName": "CelularPOO",
+        "projectPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\CelularPOO\\CelularPOO.csproj",
         "packagesPath": "C:\\Users\\48260449846\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\cadastro de aluno\\obj\\",
+        "outputPath": "C:\\Users\\48260449846\\Desktop\\Back-end-1\\POO\\CelularPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48260449846\\AppData\\Roaming\\NuGet\\NuGet.Config",

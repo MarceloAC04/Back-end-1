@@ -1,50 +1,54 @@
 ﻿using System.Globalization;
 using cadastro_de_aluno;
 
-Aluno p1 = new Aluno();
+Aluno novoAluno = new Aluno();
 
 string respostaBolsa;
 string menu;
+string sair;
 
+Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine($"Seja Bem-Vindo");
+Console.ResetColor();
 
-Console.WriteLine($"Informe o seu nome");
-p1.nome = Console.ReadLine();
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine($"Informe o nome do aluno ");
+novoAluno.nome = Console.ReadLine();
 
-Console.WriteLine($"Informe o seu curso");
-p1.curso = Console.ReadLine();
+Console.WriteLine($"Informe o curso do aluno");
+novoAluno.curso = Console.ReadLine();
 
-Console.WriteLine($"Informe a sua idade");
-p1.idade = int.Parse(Console.ReadLine());
-while (p1.idade < 0)
+Console.WriteLine($"Informe a idade do aluno");
+novoAluno.idade = Console.ReadLine();
+
+Console.WriteLine($"Informe o rg do aluno");
+novoAluno.rg = Console.ReadLine();
+
+
+Console.WriteLine($"Informe a média final do aluno");
+novoAluno.mediaFinal = int.Parse(Console.ReadLine());
+while (novoAluno.mediaFinal < 0 || novoAluno.mediaFinal > 10)
 {
-    Console.WriteLine($"Informe corretamente sua idade");
-    p1.idade = int.Parse(Console.ReadLine());
+    Console.WriteLine($"Informe corretamente a media final");
+    novoAluno.mediaFinal = int.Parse(Console.ReadLine());
 }
-Console.WriteLine($"Informe o seu rg");
-p1.rg = Console.ReadLine();
 
-Console.WriteLine($"Voce é bolsista? S/N");
+Console.WriteLine($"Informe o valor da mensalidade do aluno");
+novoAluno.mensalidade = int.Parse(Console.ReadLine());
+while (novoAluno.mensalidade < 0)
+{
+    Console.WriteLine($"Informe corretamente o valor da  mensalidade");
+    novoAluno.mensalidade = int.Parse(Console.ReadLine());
+}
+Console.ResetColor();
+
+Console.WriteLine($"O aluno é bolsista? S/N");
 respostaBolsa = Console.ReadLine().ToUpper();
-
-Console.WriteLine($"Informe a sua média final");
-p1.mediaFinal = int.Parse(Console.ReadLine());
-while (p1.mediaFinal < 0)
-{
-    Console.WriteLine($"Informe corretamente sua media final");
-    p1.mediaFinal = int.Parse(Console.ReadLine());
-}
-
-Console.WriteLine($"Informe a sua mensalidade");
-p1.mensalidade = int.Parse(Console.ReadLine());
-while (p1.mensalidade < 0)
-{
-    Console.WriteLine($"Informe corretamente sua idade");
-    p1.mensalidade = int.Parse(Console.ReadLine());
-}
+novoAluno.bolsa = respostaBolsa == "S" ? true : false;
 
 do
 {
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($@"
     --------------------------
     |         MENU           |
@@ -53,16 +57,17 @@ do
     | 2 - Ver Mensalidade    |
     --------------------------
     ");
+    Console.ResetColor();
     Console.WriteLine($"Digite uma opção");
     menu = Console.ReadLine();
+    Console.ForegroundColor = ConsoleColor.Green;
     switch (menu)
     {
         case "0":
             Console.WriteLine($"Até a proxima");
             break;
         case "1":
-            Console.WriteLine($"A sua média final é {p1.VerMediaFinal()}");
-            string sair;
+            novoAluno.VerMediaFinal();
             do
             {
                 Console.WriteLine($"Digite 'ok' para sair");
@@ -70,16 +75,14 @@ do
             } while (sair != "ok");
             break;
         case "2":
-            if (respostaBolsa == "S")
+            if (novoAluno.bolsa)
             {
-                p1.bolsa = true;
-                Console.WriteLine($"Você possue desconto na mensalidade");
-                Console.WriteLine($"Sua mensalidade com desconto é {p1.VerMensalidade().ToString("C", new CultureInfo("pt-BR"))}");
-
+                Console.WriteLine($"O aluno possue desconto na mensalidade");
+                Console.WriteLine($"A mensalidade do aluno com desconto é de {novoAluno.VerMensalidade().ToString("C", new CultureInfo("pt-BR"))}");
             }
             else
             {
-                Console.WriteLine($"Sua mensalidade é {p1.VerMensalidade().ToString("C", new CultureInfo("pt-BR"))}");
+                Console.WriteLine($"A mensalidade do aluno é {novoAluno.VerMensalidade().ToString("C", new CultureInfo("pt-BR"))}");
             }
             do
             {
@@ -91,7 +94,6 @@ do
             Console.WriteLine($"Digite uma opção válida");
             break;
     }
-
+    Console.ResetColor();
 }
 while (menu != "0");
-

@@ -10,45 +10,36 @@ namespace cadastro_de_aluno
         public string nome;
         public string curso;
 
-        public int idade;
+        public string idade;
 
         public string rg;
-        
+
         public bool bolsa;
 
         public float mediaFinal;
         public float mensalidade;
 
-        public float VerMediaFinal()
+        public void VerMediaFinal()
         {
-            return mediaFinal;
+            Console.WriteLine($"A média final do(a) aluno(a) {nome} é de {mediaFinal}");
         }
 
         public float VerMensalidade()
         {
-            switch (bolsa)
+
+            if (bolsa && mediaFinal >= 8)
             {
-                case true:
-                 if (mediaFinal >= 8)
-                 {
-                    mensalidade = (mensalidade * 0.5f);
-                 }
-                 else if (mediaFinal > 6 && mediaFinal < 8)
-                 {
-                    mensalidade = mensalidade - (mensalidade * 0.3f);
-                 }
-                 else
-                 {
-                    mensalidade = mensalidade;
-                 }
-                    break;
-                default:
+                mensalidade = (mensalidade * 0.5f);
+            }
+            else if (bolsa && mediaFinal > 6)
+            {
+                mensalidade = mensalidade - (mensalidade * 0.3f);
+            }
+            else
+            {
                 mensalidade = mensalidade;
-                    break;
             }
             return mensalidade;
-            
         }
-
     }
 }
