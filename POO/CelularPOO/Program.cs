@@ -14,12 +14,14 @@ novoCelular.tamanho = Console.ReadLine();
 do
 {
     novoCelular.Ligar();
-} while (novoCelular.ligado != true);
-
-do
-{
-     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine($@"
+    if (novoCelular.ligado == false)
+    {
+        break;
+    }
+    while (novoCelular.ligado)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($@"
     --------------------------
     |         MENU           |
     | 0 - Desligar           |
@@ -27,23 +29,24 @@ do
     | 2 - Fazer ligação      |
     --------------------------
     ");
-    Console.ResetColor();
-    Console.WriteLine($"Digite uma opção");
-    string menu = Console.ReadLine();
-    switch (menu)
-    {
-        case "0":
-        novoCelular.Desligar();
-            break;
-        case "1":
-        novoCelular.EnviarMensagem();
-            break;
-        case "2":
-        novoCelular.FazerLigacao();
-            break;
-        default:
-        Console.WriteLine($"Selecione uma opção válida");
-            break;
+        Console.ResetColor();
+        Console.WriteLine($"Digite uma opção");
+        string menu = Console.ReadLine();
+        switch (menu)
+        {
+            case "0":
+                novoCelular.Desligar();
+                break;
+            case "1":
+                novoCelular.EnviarMensagem();
+                break;
+            case "2":
+                novoCelular.FazerLigacao();
+                break;
+            default:
+                Console.WriteLine($"Selecione uma opção válida");
+                break;
+        }
+
     }
-    
-} while (novoCelular.ligado != false);
+} while (novoCelular.ligado != true);

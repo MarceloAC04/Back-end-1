@@ -33,14 +33,13 @@ namespace CelularPOO
             if (resposta == "S")
             {
                 this.ligado = true;
+                BarraCarregamento("Ligando", 5, 200);
             }
             else
             {
                 this.ligado = false;
             }
-
             return this.ligado;
-
         }
         public bool Desligar()
         {
@@ -49,17 +48,17 @@ namespace CelularPOO
             if (resposta == "S")
             {
                 this.ligado = false;
+                BarraCarregamento("Desligando", 5, 200);
             }
             else
             {
                 this.ligado = true;
             }
-
             return this.ligado;
         }
         public void FazerLigacao()
         {
-           BarraCarregamento("Ligando", 5, 700);
+            BarraCarregamento("Fazendo ligação", 5, 700);
         }
         public void EnviarMensagem()
         {
