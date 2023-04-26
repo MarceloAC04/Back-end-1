@@ -28,32 +28,38 @@ namespace CelularPOO
 
         public bool Ligar()
         {
-            Console.WriteLine($"Deseja ligar o {modelo}? S/N");
+            Console.WriteLine($"Deseja ligar o {modelo} para acessar o menu? S/N");
             string resposta = Console.ReadLine().ToUpper();
-            if (resposta == "S")
+            do
             {
-                this.ligado = true;
-                BarraCarregamento("Ligando", 5, 200);
-            }
-            else
-            {
-                this.ligado = false;
-            }
+                if (resposta == "S")
+                {
+                    this.ligado = true;
+                    BarraCarregamento("Ligando", 5, 200);
+                }
+                else
+                {
+                    this.ligado = false;
+                }
+            } while (resposta != "S" && resposta != "N");
             return this.ligado;
         }
         public bool Desligar()
         {
             Console.WriteLine($"Deseja desligar o {modelo}? S/N");
             string resposta = Console.ReadLine().ToUpper();
-            if (resposta == "S")
+            do
             {
-                this.ligado = false;
-                BarraCarregamento("Desligando", 5, 200);
-            }
-            else
-            {
-                this.ligado = true;
-            }
+                if (resposta == "S")
+                {
+                    this.ligado = false;
+                    BarraCarregamento("Desligando", 5, 200);
+                }
+                else
+                {
+                    this.ligado = true;
+                }
+            } while (resposta != "S" && resposta != "N");
             return this.ligado;
         }
         public void FazerLigacao()
