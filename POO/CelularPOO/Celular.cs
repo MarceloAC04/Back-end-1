@@ -28,7 +28,7 @@ namespace CelularPOO
 
         public bool Ligar()
         {
-            Console.WriteLine($"Deseja ligar o {modelo} para acessar o menu? S/N");
+            Console.WriteLine($"O {modelo} está desligado, deseja ligar o celular? S/N");
             string resposta = Console.ReadLine().ToUpper();
             do
             {
