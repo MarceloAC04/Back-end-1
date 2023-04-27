@@ -29,13 +29,13 @@ do
                 Console.WriteLine($"Operação cancelada");
                 break;
             case "2":
-                Console.WriteLine($"função indisponível");
+                Console.WriteLine($"Você escolheu pagamento em débito");
                 break;
             case "3":
-                Console.WriteLine($"função indisponível");
+                Console.WriteLine($"Você escolheu pagamento em crédito");
                 break;
             case "4":
-                Console.WriteLine($"função indisponível");
+                Console.WriteLine($"Você escolheu pagamento em boleto");
                 break;
             default:
                 Console.WriteLine($"Selecione uma opção válida");
