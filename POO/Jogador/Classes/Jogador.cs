@@ -18,15 +18,24 @@ namespace Back_end_1.POO.Jogador.Classes
         {
             Console.WriteLine(@$"
             Nome  do  jogador: {this.nome}
-            Data de nasciemnto: {this.dataNascimento}
+            Data de nascimento: {this.dataNascimento}
             Nacionalidade : {this.nacionalidade}
-            Altura: {this.nacionalidade}
-            Peso: {this.peso}
+            Altura: {this.altura} M
+            Peso: {this.peso} Kg
             ");
+            Console.WriteLine($"Aperte enter para sair");
+            Console.ReadKey();
         }
-        public void IdadeJogador()
+        public int IdadeJogador()
         {
-
+            int anoAtual = DateTime.Now.Year;
+            this.idade = (anoAtual - this.dataNascimento);
+            Console.WriteLine($"A idade do jogador {this.nome} é {this.idade} anos");
+            Console.WriteLine($"Aperte enter para sair");
+            Console.ReadKey();
+            return idade;
         }
+        public abstract void Aposetadoria();
+
     }
 }
