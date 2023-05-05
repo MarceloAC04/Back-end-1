@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\bin\Debug\net7.0\caféTabajara.exe
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\bin\Debug\net7.0\caféTabajara.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\bin\Debug\net7.0\caféTabajara.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\bin\Debug\net7.0\caféTabajara.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\bin\Debug\net7.0\caféTabajara.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\refint\caféTabajara.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\caféTabajara.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\caféTabajara\obj\Debug\net7.0\ref\caféTabajara.dll
