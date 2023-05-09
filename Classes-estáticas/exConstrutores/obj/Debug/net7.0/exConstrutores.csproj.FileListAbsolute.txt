@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\bin\Debug\net7.0\exConstrutores.exe
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\bin\Debug\net7.0\exConstrutores.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\bin\Debug\net7.0\exConstrutores.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\bin\Debug\net7.0\exConstrutores.dll
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\bin\Debug\net7.0\exConstrutores.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.dll
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\refint\exConstrutores.dll
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.pdb
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\exConstrutores.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\Classes-estáticas\exConstrutores\obj\Debug\net7.0\ref\exConstrutores.dll
