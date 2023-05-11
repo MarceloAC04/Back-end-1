@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\bin\Debug\net7.0\ExercicioCarro.exe
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\bin\Debug\net7.0\ExercicioCarro.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\bin\Debug\net7.0\ExercicioCarro.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\bin\Debug\net7.0\ExercicioCarro.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\bin\Debug\net7.0\ExercicioCarro.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\refint\ExercicioCarro.dll
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.pdb
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ExercicioCarro.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\POO\listas\ExercicioCarro\obj\Debug\net7.0\ref\ExercicioCarro.dll
