@@ -7,4 +7,5 @@ teste.CadastrarProduto(teste);
 
 
 teste.ListarProduto(teste);
+teste.Marca.ListarMarca(test);
 

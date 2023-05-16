@@ -8,11 +8,10 @@ namespace Projeto_de_Produtos.Classes
     public class Usuario
     {
         private int Codigo { get; set; }
-        private string Nome { get; set; }
+        public string Nome { get; set; } = "EU";
         private string Email { get; set; }
         private string Senha { get; set; }
         private DateTime DataCadastro { get; set; }
-
         private List<Usuario> ListaUsuario = new List<Usuario>();
 
         public string Cadastrar(Usuario novoUsuario)
@@ -32,8 +31,21 @@ namespace Projeto_de_Produtos.Classes
             return "Usuário cadastrado";
         }
 
+        public List<Usuario> ListarUsuario(Usuario novoUsuario)
+        {
+            foreach (var item in ListaUsuario)
+            {
+                Console.WriteLine($"Nome: {item.Nome} Email: {item.Email}");
+            }
+
+            return ListaUsuario;
+        }
+
         public string Deletar(Usuario novoUsuario)
         {
+            int index = ListaUsuario.IndexOf(novoUsuario);
+            ListaUsuario.RemoveAt(index);
+
             return "Usuário cadastrado";
         }
     }

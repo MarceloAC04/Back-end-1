@@ -13,11 +13,14 @@ namespace Projeto_de_Produtos.Classes
         private float Preco { get; set; }
         private Usuario CadastradoPor { get; set; }
         private DateTime DataCadastro { get; set; }
-        private Marca Marca { get; set; }
+
+        public Marca Marca = new Marca();
+
         private List<Produto> ListaDeProduto = new List<Produto>();
 
         public string CadastrarProduto(Produto novoProduto)
         {
+            
             Console.WriteLine($"Digite o nome do produto");
             this.NomeProduto = Console.ReadLine();
 
@@ -29,6 +32,10 @@ namespace Projeto_de_Produtos.Classes
 
             novoProduto.DataCadastro = DateTime.Now;
 
+            Marca.CadastrarMarca(Marca);
+
+            novoProduto.CadastradoPor = new Usuario();
+
             ListaDeProduto.Add(novoProduto);
 
             return "Produto cadastrado";
@@ -39,7 +46,10 @@ namespace Projeto_de_Produtos.Classes
             foreach (var item in ListaDeProduto)
             {
                 Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco}");
-                Console.WriteLine($"Data de cadastro: {novoProduto.DataCadastro}"); 
+                Console.WriteLine(@$"
+                Data de cadastro: {novoProduto.DataCadastro}
+                Cadastrado por: {CadastradoPor.Nome}
+                "); 
             }
 
             return ListaDeProduto;

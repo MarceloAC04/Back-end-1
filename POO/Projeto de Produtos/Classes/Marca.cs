@@ -7,10 +7,10 @@ namespace Projeto_de_Produtos.Classes
 {
     public class Marca
     {
-        private int Codigo { get; set; }
-        private string NomeMarca { get; set; }
-        private DateTime DataCadastro { get; set; }
-        private List<Marca> ListaMarca = new List<Marca>();
+       private int Codigo { get; set; }
+       private string NomeMarca { get; set; }
+       private DateTime DataCadastro { get; set; }
+       private List<Marca> ListaMarca = new List<Marca>();
 
         public string CadastrarMarca(Marca novaMarca)
         {
@@ -20,7 +20,7 @@ namespace Projeto_de_Produtos.Classes
             Console.WriteLine($"Digite o nome do Marca");
             this.NomeMarca = Console.ReadLine();
 
-            novaMarca.DataCadastro = DateTime.Now;
+            DataCadastro = DateTime.Now;
 
             ListaMarca.Add(novaMarca);
 
@@ -32,7 +32,7 @@ namespace Projeto_de_Produtos.Classes
             foreach (var item in ListaMarca)
             {
                 Console.WriteLine($"Nome: {item.NomeMarca}, Código: {item.Codigo}");
-                Console.WriteLine($"Data de cadastro: {novaMarca.DataCadastro}");
+                Console.WriteLine($"Data de cadastro: {DataCadastro}");
             }
 
             return ListaMarca;
