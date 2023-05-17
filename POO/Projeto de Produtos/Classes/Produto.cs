@@ -14,11 +14,11 @@ namespace Projeto_de_Produtos.Classes
         private Usuario CadastradoPor { get; set; }
         private DateTime DataCadastro { get; set; }
 
-        public Marca marca = new Marca();
+         Marca marca = new Marca();
 
         public List<Produto> ListaDeProduto = new List<Produto>();
 
-        public string CadastrarProduto()
+        public void CadastrarProduto()
         {
             Produto novoProduto = new Produto();
 
@@ -33,13 +33,12 @@ namespace Projeto_de_Produtos.Classes
 
             novoProduto.DataCadastro = DateTime.Now;
 
-            novoProduto.marca.CadastrarMarca();
-
-            novoProduto.CadastradoPor = new Usuario();
-
             ListaDeProduto.Add(novoProduto);
 
-            return "Produto cadastrado";
+            marca.CadastrarMarca();
+
+            novoProduto.CadastradoPor = new Usuario();
+            
         }
 
         public void ListarProduto()

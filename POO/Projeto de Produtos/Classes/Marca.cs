@@ -10,9 +10,9 @@ namespace Projeto_de_Produtos.Classes
         public int Codigo { get; set; }
         public string NomeMarca { get; set; }
         private DateTime DataCadastro { get; set; }
-        public List<Marca> ListaDeMarca = new List<Marca>();
+       public List<Marca> ListaDeMarca = new List<Marca>();
 
-        public Marca CadastrarMarca()
+        public void CadastrarMarca()
         {
             Marca novaMarca = new Marca();
 
@@ -26,7 +26,6 @@ namespace Projeto_de_Produtos.Classes
 
             ListaDeMarca.Add(novaMarca);
 
-            return novaMarca;
         }
 
         public void ListarMarca()
