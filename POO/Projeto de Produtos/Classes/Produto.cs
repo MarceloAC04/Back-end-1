@@ -21,7 +21,7 @@ namespace Projeto_de_Produtos.Classes
         public string CadastrarProduto()
         {
             Produto novoProduto = new Produto();
-            
+
             Console.WriteLine($"Digite o nome do produto");
             novoProduto.NomeProduto = Console.ReadLine();
 
@@ -47,22 +47,23 @@ namespace Projeto_de_Produtos.Classes
             foreach (Produto item in ListaDeProduto)
             {
                 Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco}");
+                item.CadastradoPor.Cadastrar(CadastradoPor);
                 Console.WriteLine(@$"
                 Data de cadastro: {item.DataCadastro}
-                "); 
+                Cadastrado por: {item.CadastradoPor.Nome}
+                ");
             }
 
         }
 
-        public string DeletarProduto()
+        public void DeletarProduto()
         {
             Produto produtoDeletar = new Produto();
             Console.WriteLine($"Insira o código do produto que queira remover");
-            produtoDeletar.Codigo = int.Parse(Console.ReadLine());
-            int index = 0;
-            ListaDeProduto.RemoveAt(index);
+            int codigo = int.Parse(Console.ReadLine());
+            produtoDeletar = ListaDeProduto.Find(p => p.Codigo == codigo)!;
+            ListaDeProduto.Remove(produtoDeletar);
 
-            return "Produto removido!";
         }
 
     }

@@ -7,10 +7,10 @@ namespace Projeto_de_Produtos.Classes
 {
     public class Marca
     {
-       public int Codigo { get; set; }
-       public string NomeMarca { get; set; }
-       private DateTime DataCadastro { get; set; }
-       public List<Marca> ListaDeMarca = new List<Marca>();
+        public int Codigo { get; set; }
+        public string NomeMarca { get; set; }
+        private DateTime DataCadastro { get; set; }
+        public List<Marca> ListaDeMarca = new List<Marca>();
 
         public Marca CadastrarMarca()
         {
@@ -38,11 +38,14 @@ namespace Projeto_de_Produtos.Classes
             }
         }
 
-        // public void Deletar(int codigo)
-        // {
-        //     int index = ListaMarca.IndexOf(codigo);
-        //     ListaMarca.RemoveAt(index);
+        public void DeletarMarca()
+        {
+            Marca marcaDeletar = new Marca();
+            Console.WriteLine($"Insira o código da marca que queira remover");
+            int codigo = int.Parse(Console.ReadLine());
+            marcaDeletar = ListaDeMarca.Find(m => m.Codigo == codigo)!;
+            ListaDeMarca.Remove(marcaDeletar);
 
-        // }
+        }
     }
 }

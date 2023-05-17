@@ -64,7 +64,7 @@ namespace Projeto_de_Produtos.Classes
     | [3] - Deletar Produto           |
     | [4] - Cadastrar Marca           |
     | [5] - Listar Marcas             |
-    | [6] - Deletar Produtos          |
+    | [6] - Deletar Marcas            |
     | [0] - Deslogar                  |
     ----------------------------------
     ");
@@ -92,7 +92,7 @@ namespace Projeto_de_Produtos.Classes
                         Marca.ListarMarca();
                         break;
                     case "6":
-                        // Marca.Deletar();
+                         Marca.DeletarMarca();
                         break;
                     default:
                         Console.WriteLine($"Opção inválida");
