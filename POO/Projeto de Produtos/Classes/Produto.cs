@@ -14,25 +14,26 @@ namespace Projeto_de_Produtos.Classes
         private Usuario CadastradoPor { get; set; }
         private DateTime DataCadastro { get; set; }
 
-        public Marca Marca = new Marca();
+        public Marca marca = new Marca();
 
-        private List<Produto> ListaDeProduto = new List<Produto>();
+        public List<Produto> ListaDeProduto = new List<Produto>();
 
-        public string CadastrarProduto(Produto novoProduto)
+        public string CadastrarProduto()
         {
+            Produto novoProduto = new Produto();
             
             Console.WriteLine($"Digite o nome do produto");
-            this.NomeProduto = Console.ReadLine();
+            novoProduto.NomeProduto = Console.ReadLine();
 
             Console.WriteLine($"Digite o preço do produto");
-            this.Preco = float.Parse(Console.ReadLine());
+            novoProduto.Preco = float.Parse(Console.ReadLine());
 
             Console.WriteLine($"Digite o código do produto");
-            this.Codigo = int.Parse(Console.ReadLine());
+            novoProduto.Codigo = int.Parse(Console.ReadLine());
 
             novoProduto.DataCadastro = DateTime.Now;
 
-            Marca.CadastrarMarca(Marca);
+            novoProduto.marca.CadastrarMarca();
 
             novoProduto.CadastradoPor = new Usuario();
 
@@ -41,23 +42,24 @@ namespace Projeto_de_Produtos.Classes
             return "Produto cadastrado";
         }
 
-        public List<Produto> ListarProduto(Produto novoProduto)
+        public void ListarProduto()
         {
-            foreach (var item in ListaDeProduto)
+            foreach (Produto item in ListaDeProduto)
             {
                 Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco}");
                 Console.WriteLine(@$"
-                Data de cadastro: {novoProduto.DataCadastro}
-                Cadastrado por: {CadastradoPor.Nome}
+                Data de cadastro: {item.DataCadastro}
                 "); 
             }
 
-            return ListaDeProduto;
         }
 
-        public string DeletarProduto(Produto novoProduto)
+        public string DeletarProduto()
         {
-            int index = ListaDeProduto.IndexOf(novoProduto);
+            Produto produtoDeletar = new Produto();
+            Console.WriteLine($"Insira o código do produto que queira remover");
+            produtoDeletar.Codigo = int.Parse(Console.ReadLine());
+            int index = 0;
             ListaDeProduto.RemoveAt(index);
 
             return "Produto removido!";

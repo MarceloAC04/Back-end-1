@@ -7,43 +7,42 @@ namespace Projeto_de_Produtos.Classes
 {
     public class Marca
     {
-       private int Codigo { get; set; }
-       private string NomeMarca { get; set; }
+       public int Codigo { get; set; }
+       public string NomeMarca { get; set; }
        private DateTime DataCadastro { get; set; }
-       private List<Marca> ListaMarca = new List<Marca>();
+       public List<Marca> ListaDeMarca = new List<Marca>();
 
-        public string CadastrarMarca(Marca novaMarca)
+        public Marca CadastrarMarca()
         {
+            Marca novaMarca = new Marca();
+
             Console.WriteLine($"Digite o código do Marca");
-            this.Codigo = int.Parse(Console.ReadLine());
+            novaMarca.Codigo = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Digite o nome do Marca");
-            this.NomeMarca = Console.ReadLine();
+            novaMarca.NomeMarca = Console.ReadLine();
 
-            DataCadastro = DateTime.Now;
+            novaMarca.DataCadastro = DateTime.Now;
 
-            ListaMarca.Add(novaMarca);
+            ListaDeMarca.Add(novaMarca);
 
-            return "Marca cadastrada";
+            return novaMarca;
         }
 
-        public List<Marca> ListarMarca(Marca novaMarca)
+        public void ListarMarca()
         {
-            foreach (var item in ListaMarca)
+            foreach (Marca item in ListaDeMarca)
             {
                 Console.WriteLine($"Nome: {item.NomeMarca}, Código: {item.Codigo}");
-                Console.WriteLine($"Data de cadastro: {DataCadastro}");
+                Console.WriteLine($"Data de cadastro: {item.DataCadastro}");
             }
-
-            return ListaMarca;
         }
 
-        public string Deletar(Marca novaMarca)
-        {
-            int index = ListaMarca.IndexOf(novaMarca);
-            ListaMarca.RemoveAt(index);
+        // public void Deletar(int codigo)
+        // {
+        //     int index = ListaMarca.IndexOf(codigo);
+        //     ListaMarca.RemoveAt(index);
 
-            return "Marca removida!";
-        }
+        // }
     }
 }

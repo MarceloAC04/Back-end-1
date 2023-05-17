@@ -8,45 +8,24 @@ namespace Projeto_de_Produtos.Classes
     public class Usuario
     {
         private int Codigo { get; set; }
-        public string Nome { get; set; } = "EU";
+        public string Nome { get; set; }
         private string Email { get; set; }
-        private string Senha { get; set; }
+        public string Senha { get; set; }
         private DateTime DataCadastro { get; set; }
-        private List<Usuario> ListaUsuario = new List<Usuario>();
 
-        public string Cadastrar(Usuario novoUsuario)
+        public void Cadastrar(Usuario novoUsuario)
         {
-            Console.WriteLine($"Digite o nome do usuário");
-            this.Nome = Console.ReadLine();
-
-            Console.WriteLine($"Digite o email do usuário");
-            this.Email = Console.ReadLine();
-
-            Console.WriteLine($"Digite a senha do usuário");
-            this.Senha = Console.ReadLine();
-
-            Console.WriteLine($"Digite o código do usuário");
-            this.Codigo = int.Parse(Console.ReadLine());
-
-            return "Usuário cadastrado";
+            this.Nome = "MARCELO";
+            this.Senha = "1234";
+            this.DataCadastro = DateTime.Now;
         }
 
-        public List<Usuario> ListarUsuario(Usuario novoUsuario)
+        public void Deletar(Usuario novoUsuario)
         {
-            foreach (var item in ListaUsuario)
-            {
-                Console.WriteLine($"Nome: {item.Nome} Email: {item.Email}");
-            }
-
-            return ListaUsuario;
-        }
-
-        public string Deletar(Usuario novoUsuario)
-        {
-            int index = ListaUsuario.IndexOf(novoUsuario);
-            ListaUsuario.RemoveAt(index);
-
-            return "Usuário cadastrado";
+           this.Nome = "";
+           this.Senha = "";
+           this.Nome = "";
+           this.DataCadastro = DateTime.Parse("00000000-00-00-00.00.00");
         }
     }
 }
