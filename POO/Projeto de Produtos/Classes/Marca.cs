@@ -18,18 +18,46 @@ namespace Projeto_de_Produtos.Classes
 
             Console.WriteLine($"Digite o código do Marca");
             novaMarca.CodigoMarca = int.Parse(Console.ReadLine());
-            while(novaMarca.CodigoMarca <=0)
+            int verificar = novaMarca.CodigoMarca;
+            while (novaMarca.CodigoMarca <= 0)
             {
                 Console.WriteLine($"Digite um código válido!");
                 novaMarca.CodigoMarca = int.Parse(Console.ReadLine());
             }
+            if (ListaDeMarca.Count > 0)
+            {
+                List<Marca> t = ListaDeMarca;
+                foreach (Marca item in t.ToList())
+                {
+                    if (item.CodigoMarca == novaMarca.CodigoMarca)
+                    {
+                        Console.WriteLine($"Marca: {item.NomeMarca} já cadastrada!");
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Digite o nome do Marca");
+                        novaMarca.NomeMarca = Console.ReadLine();
 
-            Console.WriteLine($"Digite o nome do Marca");
-            novaMarca.NomeMarca = Console.ReadLine();
+                        novaMarca.DataCadastro = DateTime.Now;
 
-            novaMarca.DataCadastro = DateTime.Now;
+                        ListaDeMarca.Add(novaMarca);
+                    }
 
-            ListaDeMarca.Add(novaMarca);
+                }
+
+            }
+            else
+            {
+                Console.WriteLine($"Digite o nome do Marca");
+                novaMarca.NomeMarca = Console.ReadLine();
+
+                novaMarca.DataCadastro = DateTime.Now;
+
+                ListaDeMarca.Add(novaMarca);
+
+            }
+
 
         }
 
