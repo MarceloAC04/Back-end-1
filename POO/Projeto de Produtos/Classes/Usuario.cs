@@ -13,18 +13,18 @@ namespace Projeto_de_Produtos.Classes
         public string Senha { get; set; }
         private DateTime DataCadastro { get; set; }
 
-        public void Cadastrar(Usuario novoUsuario)
+        public void CadastrarUsuario(Usuario novoUsuario)
         {
             this.Nome = "MARCELO";
             this.Senha = "1234";
             this.DataCadastro = DateTime.Now;
         }
 
-        public void Deletar(Usuario novoUsuario)
+        public void DeletarUsuario(Usuario novoUsuario)
         {
            this.Nome = "";
            this.Senha = "";
-           this.Nome = "";
+           this.Email = "";
            this.DataCadastro = DateTime.Parse("00000000-00-00-00.00.00");
         }
     }

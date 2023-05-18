@@ -15,7 +15,7 @@ namespace Projeto_de_Produtos.Classes
         private Usuario usuario = new Usuario();
         public Login()
         {
-            usuario.Cadastrar(usuario);
+            usuario.CadastrarUsuario(usuario);
             do
             {
                 Console.WriteLine($"Digite o nome do usuário");
@@ -50,9 +50,6 @@ namespace Projeto_de_Produtos.Classes
         {
             Produto produto = new Produto();
 
-            Marca Marca = new Marca();
-
-
             do
             {
                 Console.ForegroundColor = ConsoleColor.Green;
@@ -65,6 +62,8 @@ namespace Projeto_de_Produtos.Classes
     | [4] - Cadastrar Marca           |
     | [5] - Listar Marcas             |
     | [6] - Deletar Marcas            |
+    | [7] - Cadastrar Usuário         |
+    | [8] - Deletar Usuário           |
     | [0] - Deslogar                  |
     ----------------------------------
     ");
@@ -86,16 +85,23 @@ namespace Projeto_de_Produtos.Classes
                         produto.DeletarProduto();
                         break;
                     case "4":
-                        Marca.CadastrarMarca();
+                       produto.CadastrarMarca();
                         break;
                     case "5":
-                        Marca.ListarMarca();
+                        produto.ListarMarca();
                         break;
                     case "6":
-                         Marca.DeletarMarca();
+                        produto.DeletarMarca();
+                        break;
+                    case "7":
+                        usuario.CadastrarUsuario(usuario);
+                        break;
+                    case "8":
+                        usuario.DeletarUsuario(usuario);
                         break;
                     default:
                         Console.WriteLine($"Opção inválida");
+                        Console.WriteLine($"Aperte enter para continuar");
                         Console.ReadKey();
                         break;
                 }

@@ -14,10 +14,9 @@ namespace Projeto_de_Produtos.Classes
         private Usuario CadastradoPor { get; set; }
         private DateTime DataCadastro { get; set; }
 
-         Marca marca = new Marca();
-
         public List<Produto> ListaDeProduto = new List<Produto>();
 
+        public Marca marca = new Marca();
         public void CadastrarProduto()
         {
             Produto novoProduto = new Produto();
@@ -27,42 +26,79 @@ namespace Projeto_de_Produtos.Classes
 
             Console.WriteLine($"Digite o preço do produto");
             novoProduto.Preco = float.Parse(Console.ReadLine());
+            while(novoProduto.Preco < 0)
+            {
+                Console.WriteLine($"Digite um preço válido!");
+                novoProduto.Preco = float.Parse(Console.ReadLine());
+            }
 
             Console.WriteLine($"Digite o código do produto");
             novoProduto.Codigo = int.Parse(Console.ReadLine());
+            while(novoProduto.Codigo <=0)
+            {
+                Console.WriteLine($"Digite um código válido!");
+                novoProduto.Codigo = int.Parse(Console.ReadLine());
+            }
 
             novoProduto.DataCadastro = DateTime.Now;
 
             ListaDeProduto.Add(novoProduto);
+            Console.WriteLine($"");
 
-            marca.CadastrarMarca();
+            marca.Cadastrar();
 
             novoProduto.CadastradoPor = new Usuario();
-            
+
         }
 
         public void ListarProduto()
         {
-            foreach (Produto item in ListaDeProduto)
+            if (ListaDeProduto.Count > 0)
             {
-                Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco}");
-                item.CadastradoPor.Cadastrar(CadastradoPor);
-                Console.WriteLine(@$"
-                Data de cadastro: {item.DataCadastro}
-                Cadastrado por: {item.CadastradoPor.Nome}
-                ");
+                foreach (Produto item in ListaDeProduto)
+                {
+                    Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco:C}");
+                    item.CadastradoPor.CadastrarUsuario(item.CadastradoPor);
+                    Console.WriteLine($"Data de cadastro: {item.DataCadastro}, Cadastrado por: {item.CadastradoPor.Nome}");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine($"A lista de produtos está vazia!");
             }
 
         }
 
+
         public void DeletarProduto()
         {
-            Produto produtoDeletar = new Produto();
-            Console.WriteLine($"Insira o código do produto que queira remover");
-            int codigo = int.Parse(Console.ReadLine());
-            produtoDeletar = ListaDeProduto.Find(p => p.Codigo == codigo)!;
-            ListaDeProduto.Remove(produtoDeletar);
+            if (ListaDeProduto.Count > 0)
+            {
+                Produto produtoDeletar = new Produto();
+                Console.WriteLine($"Insira o código do produto que queira remover");
+                int codigo = int.Parse(Console.ReadLine());
+                produtoDeletar = ListaDeProduto.Find(p => p.Codigo == codigo)!;
+                ListaDeProduto.Remove(produtoDeletar);
+            }
+            else
+            {
+                Console.WriteLine($"A lista de produtos está vazia!");
 
+            }
+
+        }
+        public void ListarMarca()
+        {
+            marca.Listar();
+        }
+        public void CadastrarMarca()
+        {
+            marca.Cadastrar();
+        }
+        public void DeletarMarca()
+        {
+            marca.Deletar();
         }
 
     }
