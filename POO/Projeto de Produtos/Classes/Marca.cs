@@ -10,9 +10,9 @@ namespace Projeto_de_Produtos.Classes
         public int CodigoMarca { get; set; }
         public string NomeMarca { get; set; }
         private DateTime DataCadastro { get; set; }
-        public List<Marca> ListaDeMarca = new List<Marca>();
+        public  static List<Marca> ListaDeMarca = new List<Marca>();
 
-        public void Cadastrar()
+        public void CadastrarMarca()
         {
 
             Console.WriteLine($"Digite o código do Marca");
@@ -54,7 +54,7 @@ namespace Projeto_de_Produtos.Classes
 
         }
 
-        public void Listar()
+        public void ListarMarca()
         {
 
             if (ListaDeMarca.Count > 0)
@@ -81,7 +81,7 @@ namespace Projeto_de_Produtos.Classes
             }
         }
 
-        public void Deletar()
+        public void DeletarMarca()
         {
             if (ListaDeMarca.Count > 0)
             {
@@ -90,13 +90,17 @@ namespace Projeto_de_Produtos.Classes
                 int codigo = int.Parse(Console.ReadLine());
                 marcaDeletar = ListaDeMarca.Find(m => m.CodigoMarca == codigo)!;
                 ListaDeMarca.Remove(marcaDeletar);
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine($"Marca removida");
+                Console.ResetColor();
                 Console.WriteLine($"Aperte enter para sair");
                 Console.ReadKey();
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"A lista de marcas já está vazia!");
+                Console.ResetColor();
                 Console.WriteLine($"Aperte enter para sair");
                 Console.ReadKey();
 

@@ -45,7 +45,7 @@ namespace Projeto_de_Produtos.Classes
             ListaDeProduto.Add(novoProduto);
             Console.WriteLine("===============");
 
-            marca.Cadastrar();
+            marca.CadastrarMarca();
 
             novoProduto.CadastradoPor = new Usuario();
 
@@ -62,7 +62,7 @@ namespace Projeto_de_Produtos.Classes
                     item.CadastradoPor.CadastrarUsuario(item.CadastradoPor);
                     Console.WriteLine($"Data de cadastro: {item.DataCadastro}, Cadastrado por: {item.CadastradoPor.Nome}");
                     Console.WriteLine($"==============================================================");
-                    
+
                     Console.ResetColor();
                 }
                 Console.WriteLine($"Aperte enter para sair");
@@ -90,6 +90,11 @@ namespace Projeto_de_Produtos.Classes
                 int codigo = int.Parse(Console.ReadLine());
                 produtoDeletar = ListaDeProduto.Find(p => p.Codigo == codigo)!;
                 ListaDeProduto.Remove(produtoDeletar);
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine($"Produto removido");
+                Console.ResetColor();
+                Console.WriteLine($"Aperte enter para sair");
+                Console.ReadKey();
             }
             else
             {
@@ -100,18 +105,6 @@ namespace Projeto_de_Produtos.Classes
                 Console.ReadKey();
             }
 
-        }
-        public void ListarMarca()
-        {
-            marca.Listar();
-        }
-        public void CadastrarMarca()
-        {
-            marca.Cadastrar();
-        }
-        public void DeletarMarca()
-        {
-            marca.Deletar();
         }
 
     }

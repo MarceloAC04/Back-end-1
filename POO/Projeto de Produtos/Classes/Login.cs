@@ -54,6 +54,8 @@ namespace Projeto_de_Produtos.Classes
         {
             Produto produto = new Produto();
 
+            Marca marca = new Marca();
+
             do
             {
                 Console.ForegroundColor = ConsoleColor.Green;
@@ -94,15 +96,15 @@ namespace Projeto_de_Produtos.Classes
                         Console.Clear();
                         break;
                     case "4":
-                        produto.CadastrarMarca();
+                        marca.CadastrarMarca();
                         Console.Clear();
                         break;
                     case "5":
-                        produto.ListarMarca();
+                        marca.ListarMarca();
                         Console.Clear();
                         break;
                     case "6":
-                        produto.DeletarMarca();
+                        marca.DeletarMarca();
                         Console.Clear();
                         break;
                     case "7":
