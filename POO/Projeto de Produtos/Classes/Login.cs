@@ -24,14 +24,18 @@ namespace Projeto_de_Produtos.Classes
                 this.sen = Console.ReadLine();
                 if (user == usuario.Nome && sen == usuario.Senha)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"Acesso consetido");
+                    Console.ResetColor();
                     Logar(usuario);
                     GerarMenu(this.logado);
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Acesso negado!");
                     Console.WriteLine($"Digite as informações novamente!");
+                    Console.ResetColor();
                 }
             } while (user != usuario.Nome || sen != usuario.Senha);
 
@@ -55,7 +59,7 @@ namespace Projeto_de_Produtos.Classes
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(@$"
     -----------------------------------
-    |      Projeto do demoninho       |
+    |      Projeto Produtos           |
     | [1] - Cadastrar Produto         |
     | [2] - Listar Produtos           |
     | [3] - Deletar Produto           |
@@ -76,33 +80,46 @@ namespace Projeto_de_Produtos.Classes
                         Deslogado(usuario);
                         break;
                     case "1":
+                        Console.ForegroundColor = ConsoleColor.White;
                         produto.CadastrarProduto();
+                        Console.ResetColor();
+                        Console.Clear();
                         break;
                     case "2":
                         produto.ListarProduto();
+                        Console.Clear();
                         break;
                     case "3":
                         produto.DeletarProduto();
+                        Console.Clear();
                         break;
                     case "4":
-                       produto.CadastrarMarca();
+                        produto.CadastrarMarca();
+                        Console.Clear();
                         break;
                     case "5":
                         produto.ListarMarca();
+                        Console.Clear();
                         break;
                     case "6":
                         produto.DeletarMarca();
+                        Console.Clear();
                         break;
                     case "7":
                         usuario.CadastrarUsuario(usuario);
+                        Console.Clear();
                         break;
                     case "8":
                         usuario.DeletarUsuario(usuario);
+                        Console.Clear();
                         break;
                     default:
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"Opção inválida");
+                        Console.ResetColor();
                         Console.WriteLine($"Aperte enter para continuar");
                         Console.ReadKey();
+                        Console.Clear();
                         break;
                 }
 

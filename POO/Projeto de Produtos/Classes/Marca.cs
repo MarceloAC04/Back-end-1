@@ -14,41 +14,26 @@ namespace Projeto_de_Produtos.Classes
 
         public void Cadastrar()
         {
-            Marca novaMarca = new Marca();
 
             Console.WriteLine($"Digite o código do Marca");
-            novaMarca.CodigoMarca = int.Parse(Console.ReadLine());
-            int verificar = novaMarca.CodigoMarca;
-            while (novaMarca.CodigoMarca <= 0)
+            int codigo = int.Parse(Console.ReadLine());
+
+            while (codigo <= 0)
             {
                 Console.WriteLine($"Digite um código válido!");
-                novaMarca.CodigoMarca = int.Parse(Console.ReadLine());
+                codigo = int.Parse(Console.ReadLine());
             }
-            if (ListaDeMarca.Count > 0)
+
+            Marca verificaMarca = new Marca();
+
+            verificaMarca = ListaDeMarca.Find(x => x.CodigoMarca == codigo)!;
+
+            if (verificaMarca == null)
             {
-                List<Marca> t = ListaDeMarca;
-                foreach (Marca item in t.ToList())
-                {
-                    if (item.CodigoMarca == novaMarca.CodigoMarca)
-                    {
-                        Console.WriteLine($"Marca: {item.NomeMarca} já cadastrada!");
-                        Console.ReadKey();
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Digite o nome do Marca");
-                        novaMarca.NomeMarca = Console.ReadLine();
+                Marca novaMarca = new Marca();
 
-                        novaMarca.DataCadastro = DateTime.Now;
+                novaMarca.CodigoMarca = codigo;
 
-                        ListaDeMarca.Add(novaMarca);
-                    }
-
-                }
-
-            }
-            else
-            {
                 Console.WriteLine($"Digite o nome do Marca");
                 novaMarca.NomeMarca = Console.ReadLine();
 
@@ -56,6 +41,14 @@ namespace Projeto_de_Produtos.Classes
 
                 ListaDeMarca.Add(novaMarca);
 
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($"Marca já  cadastrada!");
+                Console.ResetColor();
+                Console.WriteLine($"Aperte enter para continuar");
+                Console.ReadKey();
             }
 
 
@@ -68,17 +61,21 @@ namespace Projeto_de_Produtos.Classes
             {
                 foreach (Marca item in ListaDeMarca)
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"Nome: {item.NomeMarca}, Código: {item.CodigoMarca}");
                     Console.WriteLine($"Data de cadastro: {item.DataCadastro}");
+                    Console.WriteLine($"=====================================");
+                    Console.ResetColor();
                 }
                 Console.WriteLine($"Aperte enter para sair");
                 Console.ReadKey();
 
-
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"A lista de marcas está vazia!");
+                Console.ResetColor();
                 Console.WriteLine($"Aperte enter para sair");
                 Console.ReadKey();
             }

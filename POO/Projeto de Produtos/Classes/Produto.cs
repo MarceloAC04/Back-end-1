@@ -26,7 +26,7 @@ namespace Projeto_de_Produtos.Classes
 
             Console.WriteLine($"Digite o preço do produto");
             novoProduto.Preco = float.Parse(Console.ReadLine());
-            while(novoProduto.Preco < 0)
+            while (novoProduto.Preco < 0)
             {
                 Console.WriteLine($"Digite um preço válido!");
                 novoProduto.Preco = float.Parse(Console.ReadLine());
@@ -34,7 +34,7 @@ namespace Projeto_de_Produtos.Classes
 
             Console.WriteLine($"Digite o código do produto");
             novoProduto.Codigo = int.Parse(Console.ReadLine());
-            while(novoProduto.Codigo <=0)
+            while (novoProduto.Codigo <= 0)
             {
                 Console.WriteLine($"Digite um código válido!");
                 novoProduto.Codigo = int.Parse(Console.ReadLine());
@@ -43,7 +43,7 @@ namespace Projeto_de_Produtos.Classes
             novoProduto.DataCadastro = DateTime.Now;
 
             ListaDeProduto.Add(novoProduto);
-            Console.WriteLine($"");
+            Console.WriteLine("===============");
 
             marca.Cadastrar();
 
@@ -57,15 +57,25 @@ namespace Projeto_de_Produtos.Classes
             {
                 foreach (Produto item in ListaDeProduto)
                 {
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine($"Nome: {item.NomeProduto}, Código: {item.Codigo}, Preço: {item.Preco:C}");
                     item.CadastradoPor.CadastrarUsuario(item.CadastradoPor);
                     Console.WriteLine($"Data de cadastro: {item.DataCadastro}, Cadastrado por: {item.CadastradoPor.Nome}");
+                    Console.WriteLine($"==============================================================");
+                    
+                    Console.ResetColor();
                 }
+                Console.WriteLine($"Aperte enter para sair");
+                Console.ReadKey();
 
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"A lista de produtos está vazia!");
+                Console.ResetColor();
+                Console.WriteLine($"Aperte enter para sair");
+                Console.ReadKey();
             }
 
         }
@@ -83,8 +93,11 @@ namespace Projeto_de_Produtos.Classes
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"A lista de produtos está vazia!");
-
+                Console.ResetColor();
+                Console.WriteLine($"Aperte enter para sair");
+                Console.ReadKey();
             }
 
         }
