@@ -25,7 +25,7 @@ namespace Projeto_de_Produtos.Classes
            this.Nome = "";
            this.Senha = "";
            this.Email = "";
-           this.DataCadastro = DateTime.Parse("00000000-00-00-00.00.00");
+           this.DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
         }
     }
 }
