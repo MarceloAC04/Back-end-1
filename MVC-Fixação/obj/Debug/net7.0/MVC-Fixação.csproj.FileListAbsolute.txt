@@ -1,0 +1,15 @@
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\bin\Debug\net7.0\MVC-Fixação.exe
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\bin\Debug\net7.0\MVC-Fixação.deps.json
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\bin\Debug\net7.0\MVC-Fixação.runtimeconfig.json
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\bin\Debug\net7.0\MVC-Fixação.dll
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\bin\Debug\net7.0\MVC-Fixação.pdb
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.csproj.AssemblyReference.cache
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.AssemblyInfoInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.AssemblyInfo.cs
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.csproj.CoreCompileInputs.cache
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.dll
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\refint\MVC-Fixação.dll
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.pdb
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\MVC-Fixação.genruntimeconfig.cache
+C:\Users\48260449846\Desktop\Back-end-1\MVC-Fixação\obj\Debug\net7.0\ref\MVC-Fixação.dll
